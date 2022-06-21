@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+#slider {
+  background-image: url("/assets/image/background.jpg");
+}
+
+.discover {
+  background-color: #abd373;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 27px 0;
+  cursor: pointer;
+  border-radius: 50px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.discover:hover {
+  background-color: #525252;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
