@@ -10,6 +10,33 @@
   background-image: url("/assets/image/background.jpg");
 }
 
+#slider .carousel-item {
+  margin-top: 60px;
+}
+
+#slider .carousel-item .slider-text {
+  margin-top: 120px;
+  margin-left: 0px;
+}
+
+#slider h4 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+#slider h2 {
+  font-size: 90px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#slider p {
+  font-weight: 400;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
 .discover {
   background-color: #abd373;
   border: none;
@@ -23,10 +50,12 @@
   border-radius: 50px;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
+  width: 40%;
+  height: 13%;
 }
 
 .discover:hover {
   background-color: #525252;
   color: white;
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=main.css.map */

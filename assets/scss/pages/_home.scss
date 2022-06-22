@@ -6,6 +6,28 @@
   }
   #slider{
       background-image: url('/assets/image/background.jpg');
+      .carousel-item{
+        margin-top: 60px;
+        .slider-text{
+            margin-top: 120px;
+            margin-left: 0px;
+          }
+      }
+      h4{
+        font-size: 50px;
+        font-weight: 300;
+        margin-top: 10px;
+      }
+      h2{
+        font-size: 90px;
+        font-weight: 400;
+        margin-bottom:20px;
+      }
+      p{
+        font-weight: 400;
+        font-size: 21px;
+        margin-bottom:15px;
+      }
   }
   
   .discover{
@@ -20,9 +42,10 @@
     cursor: pointer;
     border-radius: 50px;
     transition-duration: 0.4s;
+    width: 40%;
+    height: 13%;
   }
   .discover:hover{
     background-color: #525252;
     color: white;
 }
- 
